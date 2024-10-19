@@ -1,0 +1,27 @@
+{
+  "GAMEMODE": {
+    "REGULAR": {
+      "mode": "regular",
+      "name": "레귤러 매치"
+    },
+    "CHALLENGE": {
+      "mode": "challenge",
+      "name": "카오폴리스 매치 (챌린지)"
+    },
+    "OPEN": {
+      "mode": "open",
+      "name": "카오폴리스 매치 (오픈)"
+    },
+    "X": {
+      "mode": "x",
+      "name": "X 매치"
+    },
+    "SALMON": {
+      "mode": "salmon",
+      "name": {
+        "regularSchedules": "연어런",
+        "bigRunSchedules": "빅런"
+      }
+    }
+  }
+}

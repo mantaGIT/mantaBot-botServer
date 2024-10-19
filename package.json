@@ -1,0 +1,27 @@
+{
+  "name": "mantabot",
+  "version": "0.5.0",
+  "main": "scripts/index.js",
+  "scripts": {
+    "start": "node scripts/index.js",
+    "deploy": "node scripts/deploy-commands.js",
+    "test": "node scripts/test.js"
+  },
+  "author": "manta",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.1.1"
+  }
+}
